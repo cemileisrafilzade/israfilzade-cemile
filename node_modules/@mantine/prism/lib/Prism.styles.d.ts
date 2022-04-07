@@ -1,0 +1,11 @@
+interface PrismStyles {
+    colorScheme: 'light' | 'dark';
+    native: boolean;
+}
+declare const _default: (params: PrismStyles, options?: import("@mantine/core").UseStylesOptions<"code" | "line" | "scrollArea" | "root" | "copy" | "lineNumber" | "lineContent">) => {
+    classes: Record<"code" | "line" | "scrollArea" | "root" | "copy" | "lineNumber" | "lineContent", string>;
+    cx: (...args: any) => string;
+    theme: import("@mantine/core").MantineTheme;
+};
+export default _default;
+//# sourceMappingURL=Prism.styles.d.ts.map

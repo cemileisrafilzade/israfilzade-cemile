@@ -9,7 +9,7 @@ import ham from "../assets/theHam.avi";
 
 const Projects = () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id="projects">
       <h2>Some Example Projects</h2>
       <div>
         <h3>HTML , CSS ,JS, Jquery , Bootstrap </h3>
