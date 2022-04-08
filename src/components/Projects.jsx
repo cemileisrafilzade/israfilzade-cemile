@@ -19,9 +19,9 @@ const Projects = () => {
           <img src={netflix} alt="" /> */}
           {/* <video src=""></video> */}
           {/* <video loop autoPlay src="/theHam.avi" /> */}
-          <video width={400} height={300} controls>
+          {/* <video width={400} height={300} controls>
             <source src={ham} type="video/avi" />
-          </video>
+          </video> */}
         </div>
       </div>
     </ProjectsContainer>
