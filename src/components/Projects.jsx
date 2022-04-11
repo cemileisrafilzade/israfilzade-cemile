@@ -17,7 +17,6 @@ const Projects = () => {
           {/* <img src={phoneShop} alt="" />
           <img src={journey} alt="" />
           <img src={netflix} alt="" /> */}
-          {/* <video src=""></video> */}
           {/* <video loop autoPlay src="/theHam.avi" /> */}
           {/* <video width={400} height={300} controls>
             <source src={ham} type="video/avi" />
