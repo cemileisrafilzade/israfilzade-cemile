@@ -18,13 +18,13 @@ const Experience = () => {
               2021 - 2022
             </h2>
             <p data-aos="fade-left" data-aos-duration="1200">
-              <span>TASKOOL - TASKILLED</span>
-              IIn order to participate in the internship as a student in the
+              <span>TASKOOL - TASKILLED <a href="http://www.taskool.com/" target="_blank"> ( Taskool.com )</a></span>
+              In order to participate in the internship as a student in the
               last year of the university, I applied and was accepted for the
               position of frontend developer intern at Taskool, which I met on
               the Internet. Through this site, I easily grasped many of the
               topics I had difficulty learning by experimenting on a
-              realproject.
+              real project.
             </p>
           </li>{" "}
           <div
@@ -94,6 +94,9 @@ const Container = styled.div`
   align-items: center;
   padding: 20px;
   color: #182153;
+  a{
+    text-decoration: none;
+  }
   hr {
     width: 100%;
     border: 0.1px solid #18215328;

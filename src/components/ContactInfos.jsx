@@ -25,7 +25,7 @@ const Contactinfos = () => {
             <li>Email:</li>
             <p>{info.email}</p>
             <li>Portfolio:</li>
-            <a href={info.portfolio}>Github  address</a>
+            <a href={info.portfolio}>https://github.com/cemileisrafilzade/</a>
             <li>LinkedIn:</li>
             <a href={info.linkedin}>{info.linkedin}</a>
             <li>Date of birth:</li>
