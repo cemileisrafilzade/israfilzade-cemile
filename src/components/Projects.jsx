@@ -19,40 +19,40 @@ const Projects = () => {
       <h3>Click the project to see codes</h3>
       <div>
         <div>
-          <a href="https://github.com/cemileisrafilzade/Lucid" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/Lucid" rel="noreferrer"  target="_blank">
           <img data-aos="fade-right" data-aos-duration="1200" src={phoneShop} alt="" />
           </a>
-          <a href="https://github.com/cemileisrafilzade/Journey" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/Journey" rel="noreferrer"  target="_blank">
           <img data-aos="fade-left" data-aos-duration="1200" src={journey} alt="" />
           </a>
-          <a href="" target="_blank">
+          <a href="" >
           <img data-aos="fade-right" data-aos-duration="1200" src={netflix} alt="" />
           </a>
-          <a href="https://github.com/cemileisrafilzade/Musica" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/Musica" rel="noreferrer"  target="_blank">
           <video data-aos="fade-left" data-aos-duration="1200" muted autoPlay loop src={musica} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/theHam" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/theHam"  rel="noreferrer" target="_blank">
           <video data-aos="fade-right" data-aos-duration="1200" muted autoPlay loop src={ham} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/huddle" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/huddle"  rel="noreferrer" target="_blank">
           <video data-aos="fade-left" data-aos-duration="1200" muted autoPlay loop src={huddle} />
           </a>
           <a href="https://github.com/cemileisrafilzade/knowledge-Site" target="_blank">
           <video data-aos="fade-right" data-aos-duration="1200" muted autoPlay loop src={knowladge} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/Create-Note-App" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/Create-Note-App"  rel="noreferrer" target="_blank">
           <video data-aos="fade-left" data-aos-duration="1200" muted autoPlay loop src={createNote} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/giphy-Api" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/giphy-Api"  rel="noreferrer" target="_blank">
           <video data-aos="fade-right" data-aos-duration="1200" muted autoPlay loop src={findGiphy} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/number-pricing" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/number-pricing" rel="noreferrer"  target="_blank">
           <video data-aos="fade-left" data-aos-duration="1200" muted autoPlay loop src={numberPricing} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/score-Calculation" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/score-Calculation"  rel="noreferrer" target="_blank">
           <video data-aos="fade-right" data-aos-duration="1200" muted autoPlay loop src={avarageCalculator} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/taskool-project" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/taskool-project"  rel="noreferrer" target="_blank">
           <video data-aos="fade-left" data-aos-duration="1200" muted autoPlay loop src={taskool} />
           </a>
           

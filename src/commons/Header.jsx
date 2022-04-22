@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import info from "../data.json";
-import { useScrollIntoView } from "@mantine/hooks";
 
 const Header = () => {
   function scrollToX(pathX) {
