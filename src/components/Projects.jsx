@@ -25,7 +25,7 @@ const Projects = () => {
           <a href="https://github.com/cemileisrafilzade/Journey" rel="noreferrer"  target="_blank">
           <img data-aos="fade-left" data-aos-duration="1200" src={journey} alt="" />
           </a>
-          <a href="" >
+          <a href="https://github.com/cemileisrafilzade" rel="noreferrer" target="_blank" >
           <img data-aos="fade-right" data-aos-duration="1200" src={netflix} alt="" />
           </a>
           <a href="https://github.com/cemileisrafilzade/Musica" rel="noreferrer"  target="_blank">
@@ -37,7 +37,7 @@ const Projects = () => {
           <a href="https://github.com/cemileisrafilzade/huddle"  rel="noreferrer" target="_blank">
           <video data-aos="fade-left" data-aos-duration="1200" muted autoPlay loop src={huddle} />
           </a>
-          <a href="https://github.com/cemileisrafilzade/knowledge-Site" target="_blank">
+          <a href="https://github.com/cemileisrafilzade/knowledge-Site" rel="noreferrer" target="_blank">
           <video data-aos="fade-right" data-aos-duration="1200" muted autoPlay loop src={knowladge} />
           </a>
           <a href="https://github.com/cemileisrafilzade/Create-Note-App"  rel="noreferrer" target="_blank">

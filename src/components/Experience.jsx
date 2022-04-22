@@ -18,7 +18,7 @@ const Experience = () => {
               2021 - 2022
             </h2>
             <p data-aos="fade-left" data-aos-duration="1200">
-              <span>TASKOOL - TASKILLED <a href="http://www.taskool.com/" target="_blank"> ( Taskool.com )</a></span>
+              <span>TASKOOL - TASKILLED <a href="http://www.taskool.com/" rel="noreferrer" target="_blank"> ( Taskool.com )</a></span>
               In order to participate in the internship as a student in the
               last year of the university, I applied and was accepted for the
               position of frontend developer intern at Taskool, which I met on
