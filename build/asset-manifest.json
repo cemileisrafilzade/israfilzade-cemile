@@ -1,29 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fad8b6e.css",
-    "main.js": "/static/js/main.7129cfd0.js",
+    "main.css": "/static/css/main.8668f3f5.css",
+    "main.js": "/static/js/main.1a9a2fec.js",
     "static/js/787.b543b30e.chunk.js": "/static/js/787.b543b30e.chunk.js",
     "static/media/knowladge.mp4": "/static/media/knowladge.4e5cc6fe5bdca010baf6.mp4",
+    "static/media/aqrotexnika.mp4": "/static/media/aqrotexnika.857ff458052ff70f0b18.mp4",
     "static/media/journey.png": "/static/media/journey.9fd6a895736c59a8d2c5.png",
+    "static/media/bcg2.jpg": "/static/media/bcg2.06508650ce7c87d57313.jpg",
     "static/media/netflix.png": "/static/media/netflix.55aed4700240f62549a6.png",
     "static/media/theHam.mp4": "/static/media/theHam.2fe301b14f2e38f90e51.mp4",
+    "static/media/shopsite.mp4": "/static/media/shopsite.ba41eec6bee0c92f690f.mp4",
     "static/media/findGiphy.mp4": "/static/media/findGiphy.8c25a5d1ada9f7ec6701.mp4",
     "static/media/huddle.mp4": "/static/media/huddle.8283b92f28395b2f1925.mp4",
+    "static/media/bcg3.jpg": "/static/media/bcg3.2952a89c81af5ce26727.jpg",
     "static/media/musica.mp4": "/static/media/musica.9751afeb19ad748e56f1.mp4",
     "static/media/taskool.mp4": "/static/media/taskool.c2beb11287af02388161.mp4",
     "static/media/numberPricing.mp4": "/static/media/numberPricing.71908b3fedec0e42a8ad.mp4",
     "static/media/phone-shop.png": "/static/media/phone-shop.73c1edeb92baa341fcea.png",
     "static/media/avarageCalculator.mp4": "/static/media/avarageCalculator.47358f8fc3dafddfdd21.mp4",
     "static/media/createNote.mp4": "/static/media/createNote.cd74b90c61f9d45d8818.mp4",
+    "static/media/editCities.mp4": "/static/media/editCities.8d19e2d3d358887f8368.mp4",
+    "static/media/eyof.jpeg": "/static/media/eyof.46c4b4195593a35567d1.jpeg",
     "static/media/background.jpg": "/static/media/background.7ff1fc47ae9e6d167bb3.jpg",
     "static/media/profile.webp": "/static/media/profile.03f9479d7a476f3f1a1c.webp",
+    "static/media/Azercell-Logo.wine.png": "/static/media/Azercell-Logo.wine.b9aecbb4ab9c59110961.png",
+    "static/media/bmuLogo.png": "/static/media/bmuLogo.2338b0d588c0cdfee53a.png",
     "index.html": "/index.html",
-    "main.9fad8b6e.css.map": "/static/css/main.9fad8b6e.css.map",
-    "main.7129cfd0.js.map": "/static/js/main.7129cfd0.js.map",
+    "main.8668f3f5.css.map": "/static/css/main.8668f3f5.css.map",
+    "main.1a9a2fec.js.map": "/static/js/main.1a9a2fec.js.map",
     "787.b543b30e.chunk.js.map": "/static/js/787.b543b30e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fad8b6e.css",
-    "static/js/main.7129cfd0.js"
+    "static/css/main.8668f3f5.css",
+    "static/js/main.1a9a2fec.js"
   ]
 }

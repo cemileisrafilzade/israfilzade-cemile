@@ -33,13 +33,13 @@ const Contactinfos = () => {
             </li>
             <li>
               Portfolio:
-              <a href={info.portfolio} target="_blank">
+              <a href={info.portfolio} target="_blank" rel="noreferrer">
                 https://github.com/cemileisrafilzade/
               </a>
             </li>
             <li>
               LinkedIn:
-              <a href={info.linkedin} target="_blank">
+              <a href={info.linkedin} target="_blank" rel="noreferrer">
                 {info.linkedin}
               </a>
             </li>
