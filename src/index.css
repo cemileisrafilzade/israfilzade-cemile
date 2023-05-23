@@ -5,15 +5,23 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 
-font-weight: bolder;
+  font-weight: bolder;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-*{
+* {
   color: #182153;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 400px) {
+  p,
+  a,
+  li {
+    font-size: 13px !important;
+  }
 }

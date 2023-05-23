@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 import profile from "../assets/profile.webp";
 import background from "../assets/background.jpg";
-import info from "../data.json";
+import background2 from "../assets/bcg2.jpg";
+import ThemeContext from "../commons/Context";
+import info from "../data";
 const Contactinfos = () => {
+  const { theme } = useContext(ThemeContext);
   return (
-    <Container id="infos">
+    <Container theme={theme} id="infos">
       <span className="color" />
       <div className="container">
         <img
@@ -15,21 +18,35 @@ const Contactinfos = () => {
           data-aos="fade-right"
           data-aos-duration="2000"
         />
-        <div className="list" data-aos="fade-left" data-aos-duration="2000">
+        <div className="list" data-aos="fade-right" data-aos-duration="2000">
           <ul>
             {" "}
-            <p className="nameHeader"> Jamila Israfilzadeh</p>
+            {/* <p className="nameHeader"> Jamila Israfilzadeh</p> */}
             <p>Frontend Developer</p>
-            <li>Phone:</li>
-            <p>{info.phone}</p>
-            <li>Email:</li>
-            <p>{info.email}</p>
-            <li>Portfolio:</li>
-            <a href={info.portfolio}>https://github.com/cemileisrafilzade/</a>
-            <li>LinkedIn:</li>
-            <a href={info.linkedin}>{info.linkedin}</a>
-            <li>Date of birth:</li>
-            <p>March 3rd, 2000</p>
+            <li>
+              Phone:
+              <p>{info.phone}</p>
+            </li>
+            <li>
+              Email:
+              <p>{info.email}</p>
+            </li>
+            <li>
+              Portfolio:
+              <a href={info.portfolio} target="_blank">
+                https://github.com/cemileisrafilzade/
+              </a>
+            </li>
+            <li>
+              LinkedIn:
+              <a href={info.linkedin} target="_blank">
+                {info.linkedin}
+              </a>
+            </li>
+            <li>
+              Date of birth:
+              <p>March 3rd, 2000</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -42,10 +59,10 @@ export default Contactinfos;
 const Container = styled.div`
   padding: 5%;
   position: relative;
-  background-image: url(${background});
+  background-image: url(${(props) =>
+    props.theme !== "dark" ? background : background2});
   background-attachment: fixed;
   background-size: cover;
-
   .color {
     position: absolute;
     left: 0;
@@ -53,8 +70,8 @@ const Container = styled.div`
     opacity: 0.8;
     width: 100%;
     height: 100%;
-    background-color: #182153;
-   
+    background-color: ${(props) =>
+      props.theme !== "dark" ? "#182153" : "#ffffff1f"};
   }
   .container {
     padding: 3%;
@@ -64,6 +81,9 @@ const Container = styled.div`
     margin: 5% auto;
     justify-content: center;
     position: relative;
+    @media screen and (max-width: 800px) {
+      width: 100% !important;
+    }
   }
 
   .imgDiv {
@@ -73,7 +93,6 @@ const Container = styled.div`
     width: 100%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-   
   }
   .nameHeader {
     font-size: 25px;
@@ -83,24 +102,29 @@ const Container = styled.div`
   }
   .list {
     display: flex;
-    background-color: #f1f1f1;
+    background-color: ${(props) =>
+      props.theme !== "dark" ? "#f1f1f1" : "#182153"};
   }
 
   ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     list-style: none;
     text-align: left;
-
-    p,a {
-      text-decoration: none;
-      color: #2c2c2cce;
-      cursor: pointer;
-
-      
+    padding-left: 20px !important;
+    @media screen and (max-width: 800px) {
+      padding-left: 10px !important;
     }
-    a{
+    p,
+    a {
+      text-decoration: none;
+
+      cursor: pointer;
+    }
+    a {
       display: block;
       margin: 20px 0px;
-
     }
   }
   ul > li {
@@ -108,23 +132,22 @@ const Container = styled.div`
     font-size: 14px;
   }
   @media screen and (max-width: 800px) {
-   width: 100%;
+    width: 100%;
     .container {
-    padding: 3%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin: 5% auto;
-    justify-content: center;
-    position: relative;
-  }
-   .imgDiv{
-margin-top: 5%;
-
-   }
-   ul>p,ul>a{
-     font-size: 14px;
-     
-   }
+      padding: 3%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: 5% auto;
+      justify-content: center;
+      position: relative;
+    }
+    .imgDiv {
+      margin-top: 5%;
+    }
+    ul > p,
+    ul > a {
+      font-size: 14px;
+    }
   }
 `;

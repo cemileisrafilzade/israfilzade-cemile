@@ -6,25 +6,22 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Volunteer from "./components/Volunteer";
 
 const HomePage = () => {
-
-
-
   return (
     <Layout>
       <CardContainer>
         <Contactinfos />
-        <Education/>
         <Experience />
-        <Skills/>
-        <Projects/>
+        <Volunteer />
+        <Education />
+        <Skills />
+        <Projects />
       </CardContainer>
     </Layout>
   );
 };
 export default HomePage;
 
-const CardContainer = styled.div`
-
-`;
+const CardContainer = styled.div``;
