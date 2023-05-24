@@ -1,21 +1,22 @@
 import React from "react";
 import styled from "styled-components";
-import phoneShop from "../assets/projects/phone-shop.png";
-import journey from "../assets/projects/journey.png";
-import netflix from "../assets/projects/netflix.png";
-import taskool from "../assets/projects/taskool.mp4";
-import huddle from "../assets/projects/huddle.mp4";
-import ham from "../assets/projects/theHam.mp4";
-import createNote from "../assets/projects/createNote.mp4";
-import findGiphy from "../assets/projects/findGiphy.mp4";
-import knowladge from "../assets/projects/knowladge.mp4";
-import musica from "../assets/projects/musica.mp4";
-import numberPricing from "../assets/projects/numberPricing.mp4";
-import aqrotexnika from "../assets/projects/aqrotexnika.mp4";
-import avarageCalculator from "../assets/projects/avarageCalculator.mp4";
-import shopsite from "../assets/projects/shopsite.mp4";
-import cities from "../assets/projects/editCities.mp4";
-
+// import mockProjects from "../mockData/mockProjects";
+// import phoneShop from "../assets/projects/phone-shop.png";
+// import journey from "../assets/projects/journey.png";
+// import netflix from "../assets/projects/netflix.png";
+// import taskool from "../assets/projects/taskool.mp4";
+// import huddle from "../assets/projects/huddle.mp4";
+// import ham from "../assets/projects/theHam.mp4";
+// import createNote from "../assets/projects/createNote.mp4";
+// import findGiphy from "../assets/projects/findGiphy.mp4";
+// import knowladge from "../assets/projects/knowladge.mp4";
+// import musica from "../assets/projects/musica.mp4";
+// import numberPricing from "../assets/projects/numberPricing.mp4";
+// import aqrotexnika from "../assets/projects/aqrotexnika.mp4";
+// import avarageCalculator from "../assets/projects/avarageCalculator.mp4";
+// import shopsite from "../assets/projects/shopsite.mp4";
+// import cities from "../assets/projects/editCities.mp4";
+import { mockProjects } from "../mockData/mockProjects";
 const Projects = () => {
   return (
     <ProjectsContainer id="projects">
@@ -23,7 +24,7 @@ const Projects = () => {
       <h3>Click the project to see projects and codes</h3>
       <div>
         <div className="container">
-          <a href="https://www.taskool.com/" rel="noreferrer" target="_blank">
+          {/* <a href="https://www.taskool.com/" rel="noreferrer" target="_blank">
             <video
               data-aos="fade-right"
               data-aos-duration="1200"
@@ -32,8 +33,8 @@ const Projects = () => {
               loop
               src={taskool}
             />
-          </a>
-          <a href="https://aqrotexnika.az/" rel="noreferrer" target="_blank">
+          </a> */}
+          {/* <a href="https://aqrotexnika.az/" rel="noreferrer" target="_blank">
             <video
               data-aos="fade-right"
               data-aos-duration="1200"
@@ -42,8 +43,8 @@ const Projects = () => {
               loop
               src={aqrotexnika}
             />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://easyshopbyjamila.netlify.app/"
             rel="noreferrer"
             target="_blank"
@@ -56,8 +57,8 @@ const Projects = () => {
               loop
               src={shopsite}
             />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://knowledgebyjamila.netlify.app/"
             rel="noreferrer"
             target="_blank"
@@ -70,9 +71,9 @@ const Projects = () => {
               loop
               src={knowladge}
             />
-          </a>
+          </a> */}
 
-          <a
+          {/* <a
             href="https://github.com/cemileisrafilzade/Journey"
             rel="noreferrer"
             target="_blank"
@@ -83,9 +84,9 @@ const Projects = () => {
               src={journey}
               alt=""
             />
-          </a>
+          </a> */}
 
-          <a
+          {/* <a
             href="https://github.com/cemileisrafilzade/Musica"
             rel="noreferrer"
             target="_blank"
@@ -98,8 +99,8 @@ const Projects = () => {
               loop
               src={musica}
             />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://github.com/cemileisrafilzade/theHam"
             rel="noreferrer"
             target="_blank"
@@ -112,8 +113,8 @@ const Projects = () => {
               loop
               src={ham}
             />
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="https://github.com/cemileisrafilzade"
             rel="noreferrer"
             target="_blank"
@@ -192,22 +193,29 @@ const Projects = () => {
               src={phoneShop}
               alt=""
             />
-          </a>
-          <a
-            href="https://github.com/cemileisrafilzade/number-pricing"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <video
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              muted
-              autoPlay
-              loop
-              src={numberPricing}
-            />
-          </a>
-          <a
+          </a> */}
+          {mockProjects.map((item) => (
+            <a key={item.id} href={item.link} rel="noreferrer" target="_blank">
+              {item.isVideo ? (
+                <video
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  muted
+                  autoPlay
+                  loop
+                  src={item.path}
+                />
+              ) : (
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  src={item.path}
+                  alt=""
+                />
+              )}
+            </a>
+          ))}
+          {/* <a
             href="https://github.com/cemileisrafilzade/score-Calculation"
             rel="noreferrer"
             target="_blank"
@@ -220,7 +228,7 @@ const Projects = () => {
               loop
               src={avarageCalculator}
             />
-          </a>
+          </a> */}
         </div>
       </div>
     </ProjectsContainer>
