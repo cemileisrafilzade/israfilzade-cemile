@@ -30,10 +30,12 @@ export default Skills;
 const Container = styled.div`
   padding: 5%;
   position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-image: url(${(props) =>
     props.theme !== "dark" ? background : background2});
-  background-attachment: fixed;
-  background-size: cover;
+
   @media screen and (max-width: 500px) {
     padding: 1%;
   }
@@ -52,8 +54,9 @@ const Container = styled.div`
     font-weight: 400;
     padding-bottom: 17px;
     color: ${(props) =>
-      props.theme !== "dark" ? "#fff" : "#182153"} !important};
+      props.theme !== "dark" ? "#fff" : "#182153"} !important;
   }
+
   .list {
     display: grid;
     grid-template-columns: auto auto;
@@ -64,10 +67,10 @@ const Container = styled.div`
       border: 1px solid #182153;
       max-width: 400px;
       color: ${(props) =>
-        props.theme !== "dark" ? "#fff" : "#182153"} !important};
-  }
+        props.theme !== "dark" ? "#fff" : "#182153"} !important;
     }
   }
+  /* } */
 
   .color {
     position: absolute;

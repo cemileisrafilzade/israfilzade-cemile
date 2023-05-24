@@ -59,10 +59,10 @@ export default Contactinfos;
 const Container = styled.div`
   padding: 5%;
   position: relative;
+  background-size: cover !important;
+  background-attachment: fixed;
   background-image: url(${(props) =>
     props.theme !== "dark" ? background : background2});
-  background-attachment: fixed;
-  background-size: cover;
   .color {
     position: absolute;
     left: 0;

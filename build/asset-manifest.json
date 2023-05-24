@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8668f3f5.css",
-    "main.js": "/static/js/main.1a9a2fec.js",
+    "main.js": "/static/js/main.6abd3304.js",
     "static/js/787.b543b30e.chunk.js": "/static/js/787.b543b30e.chunk.js",
     "static/media/knowladge.mp4": "/static/media/knowladge.4e5cc6fe5bdca010baf6.mp4",
     "static/media/aqrotexnika.mp4": "/static/media/aqrotexnika.857ff458052ff70f0b18.mp4",
@@ -27,11 +27,11 @@
     "static/media/bmuLogo.png": "/static/media/bmuLogo.2338b0d588c0cdfee53a.png",
     "index.html": "/index.html",
     "main.8668f3f5.css.map": "/static/css/main.8668f3f5.css.map",
-    "main.1a9a2fec.js.map": "/static/js/main.1a9a2fec.js.map",
+    "main.6abd3304.js.map": "/static/js/main.6abd3304.js.map",
     "787.b543b30e.chunk.js.map": "/static/js/787.b543b30e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8668f3f5.css",
-    "static/js/main.1a9a2fec.js"
+    "static/js/main.6abd3304.js"
   ]
 }

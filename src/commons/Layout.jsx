@@ -53,6 +53,8 @@ const Container = styled.div`
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 50px !important;
+    height: 50px !important;
     color: #fff;
     /* writing-mode: vertical-rl;
     text-orientation: upright; */
